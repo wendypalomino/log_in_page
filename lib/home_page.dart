@@ -7,7 +7,14 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          backgroundImage(),
+          Container(
+            height: 300,
+            width: 400,
+            child: Image(
+              fit: BoxFit.none,
+              image: AssetImage('assets/images/background.png'),
+            ),
+          ),
           ListView(
             children: [
               Padding(
@@ -126,15 +133,5 @@ class HomePage extends StatelessWidget {
 }
 
 
-Widget backgroundImage(){
-  return Container(
-    height: 300,
-    width: 400,
-    child: Image(
-      fit: BoxFit.none,
-      image: AssetImage('assets/images/background.png'),
-    ),
-  );
-}
 
 
