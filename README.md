@@ -2,6 +2,11 @@
 
 A new Flutter application.
 
+* Team : 3
+
+- Vanessa Palomino
+- Pablo Guizado 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
